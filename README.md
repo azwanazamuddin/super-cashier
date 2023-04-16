@@ -42,8 +42,6 @@ t = Transaction()
 t.add_item(['Ayam Goreng',2,20000])
 t.add_item(['Pasta Gigi',3,15000])
 ```
-Output:
-![Output Test Case 1]('/img_test_case/test_case1.png')
 
 * Test case 2
 ```python
@@ -56,8 +54,7 @@ t.add_item(['Pasta Gigi',3,15000])
 # # TEST CASE 2
 t.delete_item('Pasta Gigi')
 ```
-Output:
-![Output Test Case 1]('/img_test_case/test_case1.png')
+
 
 * Test case 3
 ```python
@@ -73,8 +70,7 @@ t.delete_item('Pasta Gigi')
 # # TEST CASE 3
 t.reset_transaction()
 ```
-Output:
-![Output Test Case 1]('/img_test_case/test_case1.png')
+
 
 * Test case 4
 ```python
@@ -98,7 +94,7 @@ t.add_item(['Mi Instan', 5, 3000])
 t.total_price()
 ```
 Output:
-![Output Test Case 1]('/img_test_case/test_case1.png')
+Semua output ada pada folder img_test_case
 
 ## Conclusion/Future Work
 * Dengan adanya aplikasi Super Cashier ini, user dapat melakukan self service pada kasir supermarket dengan lebih mudah.
